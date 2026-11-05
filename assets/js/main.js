@@ -126,8 +126,11 @@
       if (sections[i].el.getBoundingClientRect().top <= probe) current = sections[i];
     }
 
-    /* at the very bottom, highlight the last available section */
-    var atBottom = window.innerHeight + window.pageYOffset >= document.body.scrollHeight - 4;
+    /* at the very bottom (only when the page actually scrolls), highlight the
+       last available section */
+    var scrollable = document.documentElement.scrollHeight > window.innerHeight + 48;
+    var atBottom = scrollable &&
+      (window.innerHeight + window.pageYOffset >= document.body.scrollHeight - 4);
     if (atBottom) current = sections[sections.length - 1];
 
     var link = current ? current.link : null;
