@@ -101,15 +101,18 @@ ONEWO 数据集条目、MOEA/D 本科论文、GPU 服务器那条工作经历**�
 git log -p -- index.html
 ```
 
-## 5. 内容待确认（重要）
+## 5. 内容核对记录
 
-以下几处按 CV 原文照录、但建议你核对后再公开：
+已从 CV / 公开来源核对过，无需再改：
 
-| 位置 | 现状 | 说明 |
+| 位置 | 现状 | 来源 |
 |---|---|---|
-| 论文第 1 条标题 | `Multimodal Large Language Models for Visual Understanding and Reasoning` | CV 里是占位符 `[Manuscript Title]`，这是**拟的占位标题**，请替换为真实标题（`index.html` 里已标 `TODO` 注释）。 |
-| 硕士起止 | `2024.09 – present` | 与 CV 一致；若硕士已毕业，建议改成具体结束月。 |
-| TPAMI 进度 | `Under review` | 若已中稿/被拒，记得同步改状态与 pill 样式。 |
+| 论文标题 | `What Makes a Good Visual Representation for Spatial Understanding in MLLMs?` | arXiv:2610.17844（作者：Xiaohu Huang, Yumin Guo, Kai Han，二作与 CV 一致） |
+| 论文链接 | 标题下方指向 arXiv 摘要页 | 同上，2026-10-13 提交 |
+| 硕士起止 | `2024.09 – 2026.06` | 你本人确认，2026.06 已毕业 |
+
+> 论文在页面上只标注为 **arXiv 预印本**，不出现期刊投稿状态。
+> 日后若需公开正式发表信息，改 `index.html` 里那枚 `pill` 的文案与 `pub-meta` 一行即可。
 
 ## 6. 技术说明
 
