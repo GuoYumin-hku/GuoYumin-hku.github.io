@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guoyumin-hku.github.io/sitemap.xml
